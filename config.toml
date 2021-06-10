@@ -1,0 +1,86 @@
+baseurl = "https://ericzhng.github.io/"
+title = "Personal Page"
+languageCode = "en-us"
+paginate = "10" # Number of posts per page
+theme = "Mainroad"
+disqusShortname = "ericzhng" # Enable comments by entering your Disqus shortname
+googleAnalytics = "UA-127381332-1" # Enable Google Analytics by entering your tracking id
+
+[Author] # Used in authorbox
+  name = "Hui Zhang"
+  bio = "Research Engineer"
+  avatar = "img/bio-photo.jpg"
+
+[Params]
+  subtitle = "HUI ZHANG" # Subtitle of your site. Used in site header
+  description = "My personal page" # Site description. Used in meta description
+  copyright = "HUI ZHANG" # copyright holder, otherwise will use site title
+  opengraph = true # Enable OpenGraph if true
+  twitter_cards = true # Enable Twitter Cards if true
+  readmore = true # Show "Read more" button in list if true
+  authorbox = true # Show authorbox at bottom of pages if true
+  toc = true # Enable Table of Contents
+  post_navigation = false # Show post navigation at bottom of pages if true
+  post_meta = ["date", "categories", "translations"] # Order of post meta information
+  mainSections = ["setup"] # specify section pages to show on home page and the "Recent articles" widget
+  dateformat = "2006-01-02" # change the format of dates
+  mathjax = true # Enable MathJax
+  mathjaxPath = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" # Specify MathJax path
+  mathjaxConfig = "TeX-AMS-MML_HTMLorMML" # Specify MathJax config
+  highlightColor = "#0D57AA" # Override highlight color
+  customCSS = ["css/custom.css"] # Include custom CSS files
+
+[Params.sidebar]
+  home = "right" # Configure layout for home page
+  list = "right"  # Configure layout for list pages
+  single = false # Configure layout for single pages
+  # Enable widgets in given order
+  widgets = ["search", "recent", "categories", "taglist", "social", "languages", "sidemenu"]
+
+[Params.widgets]
+  recent_num = 5 # Set the number of articles in the "Recent articles" widget
+  tags_counter = false # Enable counter for each tag in "Tags" widget (disabled by default)
+
+[Params.widgets.social]
+  # Enable parts of social widget
+  facebook = "buaa.zhanghui"
+  #twitter = "username"
+  #instagram = "username"
+  linkedin = "ericzhang2019"
+  #telegram = "username"
+  github = "ericzhng"
+  #gitlab = "username"
+  #bitbucket = "username"
+  email = "buaa.zhanghui@gmail.com"
+
+[menu]
+  [[menu.main]]
+    identifier = "research"
+    name = "research"
+    title = "research section"
+    url = "/research/"
+    weight = 10
+  [[menu.main]]
+    identifier = "publication"
+    name = "publication"
+    title = "publication section"
+    url = "/publication/"
+    weight = 20
+  [[menu.main]]
+    identifier = "poster"
+    name = "poster"
+    title = "poster section"
+    url = "/posters/"
+    weight = 30
+  [[menu.main]]
+    identifier = "blog"
+    name = "blog"
+    title = "blog section"
+    url = "https://ericzhng.github.io/psn-blogs/"
+    weight = 150
+  [[menu.main]]
+    identifier = "setup"
+    name = "setup"
+    title = "setup section"
+    url = "/setup/"
+    weight = 130
