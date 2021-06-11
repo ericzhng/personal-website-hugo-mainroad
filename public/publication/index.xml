@@ -13,8 +13,8 @@
       <pubDate>Mon, 01 Oct 2018 00:00:00 +0000</pubDate>
       
       <guid>https://ericzhng.github.io/publication/2019-zh-journal-nrb/</guid>
-      <description>[Download paper here](/files/papers/Zhang et al_Journal_wait_for_submission.pdf)
-Simulation study of wave propagation in structures can provide insights for structural health monitoring system design, developing an efficient simulation toolbox for the purpose thus becomes very essential. This paper addresses the practical issue of simulating guided wave propagation in an infinite domain using non-reflective boundary (NRB) techniques, based on the simulation framework of local interaction simulation approach (LISA) that is currently being developed in our lab.</description>
+      <description>Download paper here
+Simulation study of wave propagation in structures can provide insights for structural health monitoring system design, developing an efficient simulation toolbox for the purpose thus becomes very essential. This paper addresses the practical issue of simulating guided wave propagation in an infinite domain using non-reflective boundary (NRB) techniques, based on the simulation framework of local interaction simulation approach (LISA) that is currently being developed in our lab. Existing NRB methods can be divided into two categories, i.</description>
     </item>
     
     <item>
@@ -23,7 +23,7 @@ Simulation study of wave propagation in structures can provide insights for stru
       <pubDate>Mon, 10 Sep 2018 00:00:00 +0000</pubDate>
       
       <guid>https://ericzhng.github.io/publication/2018-wei-jsv/</guid>
-      <description>[Download paper here](/files/papers/WeiHuang et al_2018_JSV.pdf)
+      <description>Download paper here
 The acoustic black hole (ABH) effect produces drastic wave compression and energy trapping in thin-walled structures. Recent research has shown that the reflected wave in realistic ABH structures can be reduced by attaching specific wave concentration areas with thin absorbing layer. In this paper, the novel design and implementation of one-dimensional (1D) functionally graded acoustic black hole (FGABH) are presented, as an alternative to achieve low reflection effect.</description>
     </item>
     
@@ -33,7 +33,7 @@ The acoustic black hole (ABH) effect produces drastic wave compression and energ
       <pubDate>Thu, 30 Aug 2018 00:00:00 +0000</pubDate>
       
       <guid>https://ericzhng.github.io/publication/2018-wei-internoise/</guid>
-      <description>[Download paper here](/files/papers/WeiHuang et al_2018_internoise.pdf)
+      <description>Download paper here
 Recent research has shown that the acoustic black hole (ABH) effect provides wave focalization and dissipation in thin-walled structures. The design and implementation of functionally graded acoustic black hole (FG-ABH) are presented in this work. Two kinds of the FG-ABHs are demonstrated, which are axially graded ABHs and the thickness graded ABHs, respectively. The FG-ABHs are capable to be manufactured by 3D printing tech using the Objet Connex 500 printer.</description>
     </item>
     
@@ -53,7 +53,7 @@ The paper presents a damage characterization framework based on a simulation lib
       <pubDate>Sun, 26 Nov 2017 00:00:00 +0000</pubDate>
       
       <guid>https://ericzhng.github.io/publication/2018-wentao-schm/</guid>
-      <description>[Download paper here](/files/papers/Wentao et al_2018_SCHM_phased_array.pdf)
+      <description>Download paper here
 Phased array methods are a promising approach to damage detection by enabling guided wave steering and beam focusing leading to improved localization and sizing of structural damage. Due to the costs and challenges to addressing piezoelectric arrays in parallel, most phased array methods actuate piezoelectric elements one at a time in round-robin fashion with postprocessing algorithms used to synthetically steer and focus the guided waves. In this study, true parallel excitation and sensing of ceramic piezoelectric actuators is implemented in a standard structural health monitoring data acquisition system without requiring highly specialized and expensive ultrasonic data acquisition equipment.</description>
     </item>
     
@@ -63,7 +63,7 @@ Phased array methods are a promising approach to damage detection by enabling gu
       <pubDate>Mon, 20 Mar 2017 00:00:00 +0000</pubDate>
       
       <guid>https://ericzhng.github.io/publication/2017-wentao-spie/</guid>
-      <description>[Download paper here](/files/papers/Wentao et al._2017_SPIE_PA.pdf)
+      <description>Download paper here
 A novel d36-type piezoelectric wafer fabricated from lead magnesium niobate-lead titanate (PMN-PT) is explored for the generation of in-plane horizontal shear waves in plate structures. The study focuses on the development of a linear phased array (PA) of PMN-PT wafers to improve the damage detection capabilities of a structural health monitoring (SHM) system. An attractive property of in-plane horizontal shear waves is that they are nondispersive yet sensitive to damage.</description>
     </item>
     
@@ -83,7 +83,7 @@ Local interaction simulation approach (LISA) is a highly parallelizable numerica
       <pubDate>Thu, 10 Sep 2015 00:00:00 +0000</pubDate>
       
       <guid>https://ericzhng.github.io/publication/2015-yanfeng-iwshm/</guid>
-      <description>[Download paper here](/files/papers/Yanfeng et al._2015_IWSHM.pdf)
+      <description>Download paper here
 This paper presents the theoretical formulation and initial experimental investigation of static and dynamic strain sensing using the Composite Long-range Variable-direction Emitting Radar (CLoVER) transducers. CLoVER Transducers are manufactured using the piezoelectric fibers integrated with the interdigitated electrodes with wedge-shaped sectors arranged in a circular way. A coupled-field analytical model was developed based on the piezoelectricity constitutive equations with the consideration of the anisotropic material properties of CLoVER transducers.</description>
     </item>
     
@@ -93,8 +93,7 @@ This paper presents the theoretical formulation and initial experimental investi
       <pubDate>Tue, 01 Apr 2014 00:00:00 +0000</pubDate>
       
       <guid>https://ericzhng.github.io/publication/2014-zh-ccc/</guid>
-      <description>[Download paper here](/files/papers/Zhang et al._2014_CCC.pdf)
-To verify and evaluate the performance of a space robot controller, kinematics and dynamics of the system have to be formed beforehand for computer simulation. The paper is devoted to develop a new kinematic notation for space robots and to come up with an open source of Matlab subroutines for the propose of obtaining the proper dynamics equations of space robots in symbolic forms automatically. For the new kinematic notation, we will present the general form and two special cases.</description>
+      <description>To verify and evaluate the performance of a space robot controller, kinematics and dynamics of the system have to be formed beforehand for computer simulation. The paper is devoted to develop a new kinematic notation for space robots and to come up with an open source of Matlab subroutines for the propose of obtaining the proper dynamics equations of space robots in symbolic forms automatically. For the new kinematic notation, we will present the general form and two special cases.</description>
     </item>
     
   </channel>
