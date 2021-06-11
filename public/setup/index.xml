@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Setups on Personal Page</title>
+    <link>https://ericzhng.github.io/setup/</link>
+    <description>Recent content in Setups on Personal Page</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 29 Jul 2019 10:59:34 -0400</lastBuildDate><atom:link href="https://ericzhng.github.io/setup/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to set up hugo website</title>
+      <link>https://ericzhng.github.io/setup/setup-hugo-website/</link>
+      <pubDate>Mon, 29 Jul 2019 10:59:34 -0400</pubDate>
+      
+      <guid>https://ericzhng.github.io/setup/setup-hugo-website/</guid>
+      <description>Install hugo from the binary release.   Download hugo_0.56.1 version from HERE.
+  Install it using commands in Ubuntu/WSL using sudo apt install ./hugo_0.56.1_Linux-64bit.deb
+  Create a new site hugo new site quickstart
+Add a theme See themes.gohugo.io for a list of themes to consider. This quickstart uses the beautiful Ananke theme.
+cd quickstart# Download the themegit initgit submodule add https://github.com/Vimux/Mainroad.git themes/Mainroad# Edit your config.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Personal Page</title>
+    <link>https://ericzhng.github.io/</link>
+    <description>Recent content on Personal Page</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 29 Jul 2019 10:59:34 -0400</lastBuildDate><atom:link href="https://ericzhng.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to set up hugo website</title>
+      <link>https://ericzhng.github.io/setup/setup-hugo-website/</link>
+      <pubDate>Mon, 29 Jul 2019 10:59:34 -0400</pubDate>
+      
+      <guid>https://ericzhng.github.io/setup/setup-hugo-website/</guid>
+      <description>Install hugo from the binary release.   Download hugo_0.56.1 version from HERE.
+  Install it using commands in Ubuntu/WSL using sudo apt install ./hugo_0.56.1_Linux-64bit.deb
+  Create a new site hugo new site quickstart
+Add a theme See themes.gohugo.io for a list of themes to consider. This quickstart uses the beautiful Ananke theme.
+cd quickstart# Download the themegit initgit submodule add https://github.com/Vimux/Mainroad.git themes/Mainroad# Edit your config.</description>
+    </item>
+    
+    <item>
+      <title>Effective non-reflective boundary techniques for effcient simulation of guided wave propagation</title>
+      <link>https://ericzhng.github.io/publication/2019-zh-journal-nrb/</link>
+      <pubDate>Mon, 01 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://ericzhng.github.io/publication/2019-zh-journal-nrb/</guid>
+      <description>[Download paper here](/files/papers/Zhang et al_Journal_wait_for_submission.pdf)
+Simulation study of wave propagation in structures can provide insights for structural health monitoring system design, developing an efficient simulation toolbox for the purpose thus becomes very essential. This paper addresses the practical issue of simulating guided wave propagation in an infinite domain using non-reflective boundary (NRB) techniques, based on the simulation framework of local interaction simulation approach (LISA) that is currently being developed in our lab.</description>
+    </item>
+    
+    <item>
+      <title>Low Reflection Effects by 3D-Printed Functionally Graded Acoustic Black Holes</title>
+      <link>https://ericzhng.github.io/publication/2018-wei-jsv/</link>
+      <pubDate>Mon, 10 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://ericzhng.github.io/publication/2018-wei-jsv/</guid>
+      <description>[Download paper here](/files/papers/WeiHuang et al_2018_JSV.pdf)
+The acoustic black hole (ABH) effect produces drastic wave compression and energy trapping in thin-walled structures. Recent research has shown that the reflected wave in realistic ABH structures can be reduced by attaching specific wave concentration areas with thin absorbing layer. In this paper, the novel design and implementation of one-dimensional (1D) functionally graded acoustic black hole (FGABH) are presented, as an alternative to achieve low reflection effect.</description>
+    </item>
+    
+    <item>
+      <title>Numerical Analysis of Wave Propagation in Functionally Graded 1-D Acoustic Black Hole via Viscoelastic Local Interaction Simulation Approach</title>
+      <link>https://ericzhng.github.io/publication/2018-wei-internoise/</link>
+      <pubDate>Thu, 30 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://ericzhng.github.io/publication/2018-wei-internoise/</guid>
+      <description>[Download paper here](/files/papers/WeiHuang et al_2018_internoise.pdf)
+Recent research has shown that the acoustic black hole (ABH) effect provides wave focalization and dissipation in thin-walled structures. The design and implementation of functionally graded acoustic black hole (FG-ABH) are presented in this work. Two kinds of the FG-ABHs are demonstrated, which are axially graded ABHs and the thickness graded ABHs, respectively. The FG-ABHs are capable to be manufactured by 3D printing tech using the Objet Connex 500 printer.</description>
+    </item>
+    
+    <item>
+      <title>UM/LISA: efficient linear and nonlinear guided wave simulation</title>
+      <link>https://ericzhng.github.io/posters/2017-micde-4/</link>
+      <pubDate>Thu, 22 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://ericzhng.github.io/posters/2017-micde-4/</guid>
+      <description>This work introduces a fast, versatile and reliable guided wave simulation tool, University of Michigan/Local Interaction Simulation Approach (UM/LISA), for modeling both linear and nonlinear guided wave interactions with boundaries, piezoelectric transducers and different damage types. This tool provides a much more efficient alternative to Finite Element (FE) software, and serves as a design tool for damage detection system design and elastic waves related structural design. The underlying algorithm of UM/LISA is introduced first.</description>
+    </item>
+    
+    <item>
+      <title>Damage characterization based on nonlinear guided wave simulation and chirplet matching pursuit algorithm</title>
+      <link>https://ericzhng.github.io/publication/2018-zh-spie/</link>
+      <pubDate>Tue, 20 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://ericzhng.github.io/publication/2018-zh-spie/</guid>
+      <description>Download paper here
+The paper presents a damage characterization framework based on a simulation library and matching pursuit algorithm to estimate damage features in typical aerospace structures. The large damage database is generated by numeric simulation. The recent development of the University of Michigan’s Local Interaction Simulation Approach (UM/LISA) is an ideal tool for generating such a damage database in a very efficient manner. It includes capability for piezoelectric coupled field simulation, non-reflective boundary techniques, and contact penalty method for nonlinear guided wave simulation, and can execute on multiple-GPU platform for fast computation.</description>
+    </item>
+    
+    <item>
+      <title>Big data for damage characterization of aerospace structures</title>
+      <link>https://ericzhng.github.io/posters/2017-midas-3/</link>
+      <pubDate>Fri, 01 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://ericzhng.github.io/posters/2017-midas-3/</guid>
+      <description>Structural health monitoring (SHM) of aerospace structures can ensure aircraft safety and keep maintenance costs down. The purpose of this work is to develop an effective damage characterization framework for identifying various features of damage inside aerospace structures, based on a large data library of damage scenarios generated by the nonlinear guided wave simulation tool UM/LISA. UM/LISA builds the large database of simulation cases with virtually all possible damage scenarios, and then matching pursuit method is adopted to correlate test signals with the database to obtain the information about the damage.</description>
+    </item>
+    
+    <item>
+      <title>Experimental and numerical validation of guided wavephased arrays integrated within standard data acquisition systems for structural health monitoring</title>
+      <link>https://ericzhng.github.io/publication/2018-wentao-schm/</link>
+      <pubDate>Sun, 26 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://ericzhng.github.io/publication/2018-wentao-schm/</guid>
+      <description>[Download paper here](/files/papers/Wentao et al_2018_SCHM_phased_array.pdf)
+Phased array methods are a promising approach to damage detection by enabling guided wave steering and beam focusing leading to improved localization and sizing of structural damage. Due to the costs and challenges to addressing piezoelectric arrays in parallel, most phased array methods actuate piezoelectric elements one at a time in round-robin fashion with postprocessing algorithms used to synthetically steer and focus the guided waves. In this study, true parallel excitation and sensing of ceramic piezoelectric actuators is implemented in a standard structural health monitoring data acquisition system without requiring highly specialized and expensive ultrasonic data acquisition equipment.</description>
+    </item>
+    
+    <item>
+      <title>Big data analysis for damage characterization of aerospace structures based on nonlinear guided wave simulation tool UM/LISA</title>
+      <link>https://ericzhng.github.io/posters/2017-egs-2/</link>
+      <pubDate>Fri, 10 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://ericzhng.github.io/posters/2017-egs-2/</guid>
+      <description>Structural health monitoring of aerospace structures can ensure aircraft safety and keep maintenance costs down. The purpose of this work is to develop an effective damage characterization framework for identifying various features of damage inside aerospace structures, based on a large data library of damage scenarios generated by the nonlinear guided wave simulation tool UM/LISA. UM/LISA builds the large database of simulation cases with virtually all possible damage scenarios, and then matching pursuit method is adopted to correlate test signals with the database to obtain the information about the damage.</description>
+    </item>
+    
+    <item>
+      <title>Numerical and experimental simulation of linear shear piezoelectric phased arrays for structural health monitoring</title>
+      <link>https://ericzhng.github.io/publication/2017-wentao-spie/</link>
+      <pubDate>Mon, 20 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://ericzhng.github.io/publication/2017-wentao-spie/</guid>
+      <description>[Download paper here](/files/papers/Wentao et al._2017_SPIE_PA.pdf)
+A novel d36-type piezoelectric wafer fabricated from lead magnesium niobate-lead titanate (PMN-PT) is explored for the generation of in-plane horizontal shear waves in plate structures. The study focuses on the development of a linear phased array (PA) of PMN-PT wafers to improve the damage detection capabilities of a structural health monitoring (SHM) system. An attractive property of in-plane horizontal shear waves is that they are nondispersive yet sensitive to damage.</description>
+    </item>
+    
+    <item>
+      <title>GPU parallelized modeling of ultrasonic wave propagation using Local Interaction Simulation Approach</title>
+      <link>https://ericzhng.github.io/posters/2016-micde-1/</link>
+      <pubDate>Thu, 07 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://ericzhng.github.io/posters/2016-micde-1/</guid>
+      <description>Guided Wave is one of the most promising tools for damage detection in the field of Structural Health Monitoring (SHM), because it can travel long distance without much decay, and is highly sensitive to micro-damage due to its short wavelength. But guided wave is highly dispersive and has infinite number of modes, and is further complicated by the interactions with transducers, boundaries and damage, which renders the modeling of guided wave a rather difficult task.</description>
+    </item>
+    
+    <item>
+      <title>A Hybrid Non-Reflective Boundary Technique for Efficient Simulation of Guided Waves using Local Interaction Simulation Approach</title>
+      <link>https://ericzhng.github.io/publication/2016-zh-spie/</link>
+      <pubDate>Tue, 05 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://ericzhng.github.io/publication/2016-zh-spie/</guid>
+      <description>Download paper here
+Local interaction simulation approach (LISA) is a highly parallelizable numerical scheme for guided wave simulation in structural health monitoring (SHM). This paper addresses the issue of simulating wave propagation in unbounded domain through the implementation of non-reflective boundary (NRB) in LISA. In this study, two different categories of NRB, i.e., the non-reflective boundary condition (NRBC) and the absorbing boundary layer (ABL), have been investigated in the parallelized LISA scheme.</description>
+    </item>
+    
+    <item>
+      <title>CLoVER Transducers for Static and Dynamic Strain Sensing</title>
+      <link>https://ericzhng.github.io/publication/2015-yanfeng-iwshm/</link>
+      <pubDate>Thu, 10 Sep 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://ericzhng.github.io/publication/2015-yanfeng-iwshm/</guid>
+      <description>[Download paper here](/files/papers/Yanfeng et al._2015_IWSHM.pdf)
+This paper presents the theoretical formulation and initial experimental investigation of static and dynamic strain sensing using the Composite Long-range Variable-direction Emitting Radar (CLoVER) transducers. CLoVER Transducers are manufactured using the piezoelectric fibers integrated with the interdigitated electrodes with wedge-shaped sectors arranged in a circular way. A coupled-field analytical model was developed based on the piezoelectricity constitutive equations with the consideration of the anisotropic material properties of CLoVER transducers.</description>
+    </item>
+    
+    <item>
+      <title>New kinematic notation and automatic generation of symbolic dynamics equations for space robots</title>
+      <link>https://ericzhng.github.io/publication/2014-zh-ccc/</link>
+      <pubDate>Tue, 01 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://ericzhng.github.io/publication/2014-zh-ccc/</guid>
+      <description>[Download paper here](/files/papers/Zhang et al._2014_CCC.pdf)
+To verify and evaluate the performance of a space robot controller, kinematics and dynamics of the system have to be formed beforehand for computer simulation. The paper is devoted to develop a new kinematic notation for space robots and to come up with an open source of Matlab subroutines for the propose of obtaining the proper dynamics equations of space robots in symbolic forms automatically. For the new kinematic notation, we will present the general form and two special cases.</description>
+    </item>
+    
+    <item>
+      <title>About Me</title>
+      <link>https://ericzhng.github.io/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ericzhng.github.io/about/</guid>
+      <description>You don&amp;rsquo;t know me? Wait, we can become great friends, sharing similar interests and making positive impacts.
+Personal My main research interests reside in numerical simulation, structural health monitoring, and general structural dynamics. Please feel free to check out my resume here.
+I have broad personal interests, including: Android App development, Unreal Game engine, marathon, cycling, artificial intelligence, and some other interests that provide a sense of achievement.
+Research I just completed my Ph.</description>
+    </item>
+    
+    <item>
+      <title>Besides Working</title>
+      <link>https://ericzhng.github.io/life/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ericzhng.github.io/life/</guid>
+      <description>I am an easy-going person. Please feel free to contact me regarding any research and programming questions at my email.
+Skills  Finite Element Software  ANSYS, COMSOL, Abaqus, etc.   Parallel Computing  CUDA C/++, OpenMP Multiple-GPU   Symbolic &amp;amp; Numerical Mathmatics  Maple and Matlab   Linux Skills &amp;amp; Experience  Makefile, CMake   Others  NI LabVIEW associate certificate, Altium Designer, Embedded system, etc.</description>
+    </item>
+    
+    <item>
+      <title>CLoVER transducer for strain sensing</title>
+      <link>https://ericzhng.github.io/research/portfolio-3-clover/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ericzhng.github.io/research/portfolio-3-clover/</guid>
+      <description>We investigated the theoretical formulation and initial experimental investigation of static and dynamic strain sensing using the Composite Long-range Variable-direction Emitting Radar (CLoVER) transducers. CLoVER Transducers are manufactured using the piezoelectric fibers integrated with the interdigitated electrodes with wedge-shaped sectors arranged in a circular way. A coupled-field analytical model was developed based on the piezoelectricity constitutive equations with the consideration of the anisotropic material properties of CLoVER transducers. The analytical formulation was derived under a cylindrical coordinate system for a single CLoVER sector.</description>
+    </item>
+    
+    <item>
+      <title>Damage characterization based on nonlinear guided wave simulation and chirplet matching pursuit algorithm</title>
+      <link>https://ericzhng.github.io/research/portfolio-6-damage/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ericzhng.github.io/research/portfolio-6-damage/</guid>
+      <description>The work presents a damage characterization framework based on a simulation library and matching pursuit algorithm to estimate damage features in typical aerospace structures. The large damage database is generated by numeric simulation. The recent development of the University of Michigan’s Local Interaction Simulation Approach (UM/LISA) is an ideal tool for generating such a damage database in a very efficient manner. It includes capability for piezoelectric coupled field simulation, non-reflective boundary techniques, and contact penalty method for nonlinear guided wave simulation, and can execute on multiple-GPU platform for fast computation.</description>
+    </item>
+    
+    <item>
+      <title>New kinematic notation and automatic generation of symbolic dynamics equations for space robots</title>
+      <link>https://ericzhng.github.io/research/portfolio-7-space-rbot/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ericzhng.github.io/research/portfolio-7-space-rbot/</guid>
+      <description>To verify and evaluate the performance of a space robot controller, kinematics and dynamics of the system have to be formed beforehand for computer simulation. The work is devoted to develop a new kinematic notation for space robots and to come up with an open source of Matlab subroutines for the propose of obtaining the proper dynamics equations of space robots in symbolic forms automatically. For the new kinematic notation, we will present the general form and two special cases.</description>
+    </item>
+    
+    <item>
+      <title>Non-reflective boundary techniques in UM-LISA</title>
+      <link>https://ericzhng.github.io/research/portfolio-2-nrb/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ericzhng.github.io/research/portfolio-2-nrb/</guid>
+      <description>Non-reflective boundary techniques are typically used in simulation to reduce boundary reflections and reduce model size. The non-reflective boundary conditions and boundary layer methods are developed and implemented in UM-LISA to faciliate simulation so that users can focus on the area of interest while avoiding boundary interferences.
+The current implementation of NRB techniques implemented in UM-LISA are illustrated below
+The following picture shows the performance of different NRB techniques.
+For more information about the algorithm and features, please check the following references.</description>
+    </item>
+    
+    <item>
+      <title>Phased array methods for damage detection</title>
+      <link>https://ericzhng.github.io/research/portfolio-4-phase-array/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ericzhng.github.io/research/portfolio-4-phase-array/</guid>
+      <description>Phased array methods are a promising approach to damage detection by enabling guided wave steering and beam focusing leading to improved localization and sizing of structural damage. Due to the costs and challenges to addressing piezoelectric arrays in parallel, most phased array methods actuate piezoelectric elements one at a time in round-robin fashion with postprocessing algorithms used to synthetically steer and focus the guided waves. Here we investigated true parallel excitation and sensing of ceramic piezoelectric actuators in a standard structural health monitoring data acquisition system without requiring highly specialized and expensive ultrasonic data acquisition equipment.</description>
+    </item>
+    
+    <item>
+      <title>Teaching</title>
+      <link>https://ericzhng.github.io/teaching/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ericzhng.github.io/teaching/</guid>
+      <description>I have been GSI-ing the course twice, working with the same instructor (Dr. Aaron Johnson), during fall 2017 and fall 2018 semesters.
+Main duties  Proposed and organized a series of 15-minute pre-class research talks which stimulated students’ strong interest in structural areas. Assisted instructor in preparing the undergraduate course (AE215: structural mechanics), including preparing homework, exams questions and solutions. Held review classes and office hours to assist students in homework and exams.</description>
+    </item>
+    
+    <item>
+      <title>UM-LISA: guided wave solver for solid structures</title>
+      <link>https://ericzhng.github.io/research/portfolio-1-lisa/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ericzhng.github.io/research/portfolio-1-lisa/</guid>
+      <description>One field of research in Structural Health Monitoring (SHM) is relevant to guided wave modeling and simulation. An in-house code has been developed at the University of Michigan, with abundant features for wave simulation such as non-reflective boundary (NRB) techniques, piezoelectric coupled, contact dynamics, multiple GPU parallelization, etc. The code is running on a multiple-GPU platform and is demonstrated to be much more efficient than commericial Finite Element software.
+The algorihtm we adopted is Local Interacation Simulation Approach (LISA), a finite difference solver proposed by P.</description>
+    </item>
+    
+    <item>
+      <title>Wave Propagation in Functionally Graded 1-D Acoustic Black Hole via Viscoelastic Local Interaction Simulation Approach</title>
+      <link>https://ericzhng.github.io/research/portfolio-5-abh/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ericzhng.github.io/research/portfolio-5-abh/</guid>
+      <description>The acoustic black hole (ABH) effect produces drastic wave compression and energy trapping in thin-walled structures. Recent research has shown that the reflected wave in realistic ABH structures can be reduced by attaching specific wave concentration areas with thin absorbing layer.
+In this work, the novel design and implementation of one-dimensional (1D) functionally graded acoustic black hole (FGABH) are studied, as an alternative to achieve low reflection effect. Two kinds of the FG-ABHs are demonstrated, i.</description>
+    </item>
+    
+  </channel>
+</rss>

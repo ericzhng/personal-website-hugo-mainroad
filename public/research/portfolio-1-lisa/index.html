@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>UM-LISA: guided wave solver for solid structures - Personal Page</title>
+	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
+	<meta name="description" content="">
+		<meta property="og:title" content="UM-LISA: guided wave solver for solid structures" />
+<meta property="og:description" content="One field of research in Structural Health Monitoring (SHM) is relevant to guided wave modeling and simulation. An in-house code has been developed at the University of Michigan, with abundant features for wave simulation such as non-reflective boundary (NRB) techniques, piezoelectric coupled, contact dynamics, multiple GPU parallelization, etc. The code is running on a multiple-GPU platform and is demonstrated to be much more efficient than commericial Finite Element software.
+The algorihtm we adopted is Local Interacation Simulation Approach (LISA), a finite difference solver proposed by P." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ericzhng.github.io/research/portfolio-1-lisa/" /><meta property="article:section" content="research" />
+
+
+
+
+		<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="UM-LISA: guided wave solver for solid structures"/>
+<meta name="twitter:description" content="One field of research in Structural Health Monitoring (SHM) is relevant to guided wave modeling and simulation. An in-house code has been developed at the University of Michigan, with abundant features for wave simulation such as non-reflective boundary (NRB) techniques, piezoelectric coupled, contact dynamics, multiple GPU parallelization, etc. The code is running on a multiple-GPU platform and is demonstrated to be much more efficient than commericial Finite Element software.
+The algorihtm we adopted is Local Interacation Simulation Approach (LISA), a finite difference solver proposed by P."/>
+
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="dns-prefetch" href="//fonts.googleapis.com">
+	<link rel="dns-prefetch" href="//fonts.gstatic.com">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700">
+
+	<link rel="stylesheet" href="/css/style.css">
+	<link rel="stylesheet" href="/css/custom.css">
+
+	<link rel="shortcut icon" href="/favicon.ico">
+		
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-127381332-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+</head>
+<body class="body">
+	<div class="container container--outer">
+		<header class="header">
+	<div class="container header__container">
+		
+	<div class="logo">
+		<a class="logo__link" href="/" title="Personal Page" rel="home">
+			<div class="logo__item logo__text">
+					<div class="logo__title">Personal Page</div>
+					<div class="logo__tagline">HUI ZHANG</div>
+				</div>
+		</a>
+	</div>
+		
+<nav class="menu">
+	<button class="menu__btn" aria-haspopup="true" aria-expanded="false" tabindex="0">
+		<span class="menu__btn-title" tabindex="-1">Menu</span>
+	</button>
+	<ul class="menu__list">
+		<li class="menu__item">
+			<a class="menu__link" href="/about/">
+				
+				<span class="menu__text">about</span>
+				
+			</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/research/">
+				
+				<span class="menu__text">research</span>
+				
+			</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/publication/">
+				
+				<span class="menu__text">publication</span>
+				
+			</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/posters/">
+				
+				<span class="menu__text">poster</span>
+				
+			</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/teaching/">
+				
+				<span class="menu__text">Teaching</span>
+				
+			</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/life/">
+				
+				<span class="menu__text">Life</span>
+				
+			</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/setup/">
+				
+				<span class="menu__text">setup</span>
+				
+			</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="https://ericzhng.github.io/psn-blogs/">
+				
+				<span class="menu__text">blog</span>
+				
+			</a>
+		</li>
+	</ul>
+</nav>
+
+	</div>
+</header>
+		<div class="wrapper flex">
+			<div class="primary">
+			
+<main class="main" role="main">
+	<article class="post">
+		<header class="post__header">
+			<h1 class="post__title">UM-LISA: guided wave solver for solid structures</h1>
+			<div class="post__meta meta"><div class="meta__item-author meta__item">
+	<svg class="meta__icon icon icon-author" width="16" height="16" viewBox="0 0 12 16"><path d="M6 1c2.2 0 3.5 2 3.5 4.5C9.5 7 8.9 8.2 8 9c2.9.8 4 2.5 4 5v1H0v-1c0-2.5 1.1-4.2 4-5-.9-.8-1.5-2-1.5-3.5C2.5 3 3.8 1 6 1z"/></svg><span class="meta__text">Hui Zhang</span>
+</div></div>
+		</header><div class="content post__content clearfix">
+			<p>One field of research in Structural Health Monitoring (SHM) is relevant to guided wave modeling and simulation. An in-house code has been developed at the University of Michigan, with abundant features for wave simulation such as non-reflective boundary (NRB) techniques, piezoelectric coupled, contact dynamics, multiple GPU parallelization, etc. The code is running on a multiple-GPU platform and is demonstrated to be much more efficient than commericial Finite Element software.</p>
+<p>The algorihtm we adopted is Local Interacation Simulation Approach (LISA), a finite difference solver proposed by <a href="https://www.sciencedirect.com/science/article/pii/S0165212597000139">P. P. Delsanto</a> around 1997. The solver incoporated a sharp interface model (SIM) to deal with discontinuity at interfaces, and ensure both the continuity of displacements and stresses.</p>
+<p>All features that are currently available in UM-LISA is shown below</p>
+<p><img src="/images/lisa-features.png" alt="here."></p>
+<p>For more information about the algorithm and features, please check the following references.</p>
+<h2 id="references">References</h2>
+<ol>
+<li>
+<p>Raghavan, A. and Cesnik, C. E. S., “Review of guided-wave structural health monitoring,” Shock Vib. Dig.
+39(2), 91–114 (2007).</p>
+</li>
+<li>
+<p>Delsanto, P. P., Schechter, R. S. and Mignogna, R. B., “Connection machine simulation of ultrasonic wave
+propagation in materials III: the three-dimensional case,” Wave Motion 26(1), 329–339 (1997).</p>
+</li>
+<li>
+<p>Nadella, K. S. and Cesnik, C. E. S., “Numerical simulation of wave propagation in composite plates,” Proc.
+SPIE, 83480L (2012).</p>
+</li>
+<li>
+<p>Nadella, K. S. and Cesnik, C. E. S., “Piezoelectric coupled LISA for guided wave generation and propagation,”
+Proc. SPIE, 86951R (2013).</p>
+</li>
+<li>
+<p>Zhang, H. and Cesnik, C. E. S., “A hybrid non-reflective boundary technique for efficient simulation of guided waves using local interaction simulation approach,” Proc. SPIE, 98050U (2016).</p>
+</li>
+</ol>
+
+		</div>
+	</article>
+</main>
+
+<div class="authorbox clearfix">
+	<figure class="authorbox__avatar">
+		<img alt="Hui Zhang avatar" src="/img/bio-photo.jpg" class="avatar" height="90" width="90">
+	</figure>
+	<div class="authorbox__header">
+		<span class="authorbox__name">About Hui Zhang</span>
+	</div>
+	<div class="authorbox__description">
+		Research Engineer
+	</div>
+</div>
+
+<nav class="pager flex">
+	<div class="pager__item pager__item--prev">
+		<a class="pager__link" href="/research/portfolio-5-abh/" rel="prev">
+			<span class="pager__subtitle">«&thinsp;Previous</span>
+			<p class="pager__title">Wave Propagation in Functionally Graded 1-D Acoustic Black Hole via Viscoelastic Local Interaction Simulation Approach</p>
+		</a>
+	</div>
+	<div class="pager__item pager__item--next">
+		<a class="pager__link" href="/research/portfolio-4-phase-array/" rel="next">
+			<span class="pager__subtitle">Next&thinsp;»</span>
+			<p class="pager__title">Phased array methods for damage detection</p>
+		</a>
+	</div>
+</nav>
+
+<section class="comments">
+	<div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "ericzhng" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</section>
+
+
+			</div>
+			
+		</div>
+		<footer class="footer">
+	<div class="container footer__container flex">
+		
+		<div class="footer__copyright">
+			&copy; 2021 HUI ZHANG.
+			<span class="footer__copyright-credits">Generated with <a href="https://gohugo.io/" rel="nofollow noopener" target="_blank">Hugo</a> and <a href="https://github.com/Vimux/Mainroad/" rel="nofollow noopener" target="_blank">Mainroad</a> theme.</span>
+		</div>
+	</div>
+</footer>
+	</div>
+<script async defer src="/js/menu.js"></script>
+<script src="/js/custom.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js?config=TeX-AMS-MML_HTMLorMML" async></script>
+</body>
+</html>
