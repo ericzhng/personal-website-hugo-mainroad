@@ -89,14 +89,14 @@ googleAnalytics = "UA-127381332-1" 	# Enable Google Analytics by entering your t
     url = "/posters/"
     weight = 30
   [[menu.main]]
-    identifier = "setup"
-    name = "setup"
-    title = "setup section"
-    url = "/setup/"
-    weight = 130
-  [[menu.main]]
     identifier = "blog"
     name = "blog"
     title = "blog section"
     url = "https://ericzhng.github.io/psn-blogs/"
     weight = 150
+  [[menu.main]]
+    identifier = "setup"
+    name = "setup"
+    title = "setup section"
+    url = "/setup/"
+    weight = 130
